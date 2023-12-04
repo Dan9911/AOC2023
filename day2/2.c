@@ -4,11 +4,6 @@
 #include <string.h>
 
 FILE *fileptr;
-struct game {
-	int red;
-	int green;
-	int blue;
-};
 
 int main(int argc, char *argv[])
 {
