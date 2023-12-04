@@ -5,15 +5,6 @@
 
 FILE *fileptr;
 
-int adjacent(char row[], int start, int end){
-	for(int i = start; i <= end; i++){
-		if(isdigit(row[i])){
-			return i;
-		}
-	}
-	return 0;
-}
-
 int extract_from_row(char row[], int start){
 	int l_index = start;
 	while(isdigit(row[l_index])){
